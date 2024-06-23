@@ -16,5 +16,15 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"obj_bullet","order":1,"path":"objects/obj_bullet/obj_bullet.yy",},
+    {"name":"obj_coin","order":4,"path":"objects/obj_coin/obj_coin.yy",},
+    {"name":"obj_enemy","order":2,"path":"objects/obj_enemy/obj_enemy.yy",},
+    {"name":"obj_enemySpawer","order":3,"path":"objects/obj_enemySpawer/obj_enemySpawer.yy",},
+    {"name":"obj_GUI","order":5,"path":"objects/obj_GUI/obj_GUI.yy",},
+    {"name":"spr_bullet","order":1,"path":"sprites/spr_bullet/spr_bullet.yy",},
+    {"name":"spr_coin","order":4,"path":"sprites/spr_coin/spr_coin.yy",},
+    {"name":"spr_empty","order":3,"path":"sprites/spr_empty/spr_empty.yy",},
+    {"name":"spr_enemy","order":2,"path":"sprites/spr_enemy/spr_enemy.yy",},
+  ],
 }
