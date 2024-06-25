@@ -1,3 +1,8 @@
+if (global.PAUSE){
+	speed = 0;
+	return;
+}
+
 var player_x = obj_player.x;
 var player_y = obj_player.y;
 
@@ -14,7 +19,7 @@ if (place_meeting(x, y, obj_player)){
 		damageIntervalTimer = damageIntervalTimerMax;
 		show_debug_message("Damaged Player!");
 		var instance = instance_place(x, y, obj_player);
-		global.COINS--;
+		global.COINS-= damage;
 	}
 }else{
 	damageIntervalTimer = 0;

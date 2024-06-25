@@ -1,4 +1,10 @@
+if (global.PAUSE){
+	return;
+}
 
+if (global.COINS <= 0  ){
+	room_goto(rm_start);	
+}
 //x movement
 if (keyboard_check(ord("A"))){
 	x = x - spd;
