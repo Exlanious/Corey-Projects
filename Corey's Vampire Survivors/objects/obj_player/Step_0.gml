@@ -44,5 +44,5 @@ if (shootTimer >= shootTimerMax){
 if (place_meeting(x, y, obj_coin)){
 	var instance = instance_place(x, y, obj_coin);
 	instance_destroy(instance);
-	global.COINS++;
+	global.COINS+=50;
 }

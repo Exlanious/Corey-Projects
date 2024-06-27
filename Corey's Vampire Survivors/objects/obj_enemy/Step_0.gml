@@ -27,5 +27,7 @@ if (place_meeting(x, y, obj_player)){
 
 
 if (hp <= 0){
+	var deathDisplay = instance_create_depth(x, y, 0, obj_spriteDisplayONCE);
+	deathDisplay.sprite_index = spr_enemyDeath;
 	instance_destroy();	
 }

@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_coin",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_test",
+  "eventList":[],
   "managed":true,
-  "name":"obj_coin",
+  "name":"obj_test",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bills",
-    "path":"sprites/spr_bills/spr_bills.yy",
+    "name":"spr_test",
+    "path":"sprites/spr_test/spr_test.yy",
   },
   "spriteMaskId":null,
   "visible":true,

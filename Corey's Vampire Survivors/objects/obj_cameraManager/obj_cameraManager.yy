@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_coin",
+  "%Name":"obj_cameraManager",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_coin",
+  "name":"obj_cameraManager",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bills",
-    "path":"sprites/spr_bills/spr_bills.yy",
+    "name":"spr_empty",
+    "path":"sprites/spr_empty/spr_empty.yy",
   },
   "spriteMaskId":null,
   "visible":true,
